@@ -61,7 +61,8 @@ def questions():
     #Which saiki character is Grace NENDOU
     #Which saiki character is David TERUHASHI
     #What did Grace ask David about as a pretext to get ins
-    #What was the first thing David bought Grace
+    #What was the first thing David bought Grace PIE
+    #Grace's favourite cryptid HARDING
 
     #FINAL QUESTION
     #Out of Grace and David, who likes the other one more DAVID/GRACE both work
