@@ -1,27 +1,21 @@
-
-"""
-Download this then run the file
-Don't open this from discord!
-"""
-
 import time
 import random
 
-print("Before I can wish you Merry Christmas, I gotta first make sure that you're actually Grace.")
-time.sleep(2)
-print("To do so, complete this crossword. It should be simple if you're her.")
-print()
-time.sleep(2)
-print("The first number indicates column, second is row, and the letter means down or across.")
-time.sleep(2)
-print("Answer in the format column, row, word, and if it's two words, don't put the space.")
-time.sleep(2)
-print("e.g. 11 DavidWu")
-time.sleep(2)
-print()
-print("Good luck!")
-print()
-time.sleep(1)
+# print("Before I can wish you Merry Christmas, I gotta first make sure that you're actually Grace.")
+# time.sleep(2)
+# print("To do so, complete this crossword. It should be simple if you're her.")
+# print()
+# time.sleep(2)
+# print("The first number indicates column, second is row, and the letter means down or across.")
+# time.sleep(2)
+# print("Answer in the format column, row, word, and if it's two words, don't put the space.")
+# time.sleep(2)
+# print("e.g. 11 DavidWu")
+# time.sleep(2)
+# print()
+# print("Good luck!")
+# print()
+# time.sleep(1)
 
 def main(board):
     answers(board)
@@ -52,28 +46,73 @@ def game_end():
     return game_end
 
 def questions():
-    #Who is Grace and David's Godmother and made it all happen JUDY
-    #What's Grace's favourite show to talk about FAMILYGUY
-    #What beach did Grace and David spend their first day together at EASTERN
-    #What's handsome guy in Chinese SHUAIGE
-    #What can be used to pay Grace to swim HUGS
-    #What has been pushed BOULDER
-    #Which saiki character is Grace NENDOU
-    #Which saiki character is David TERUHASHI
-    #What did Grace ask David about as a pretext to get ins
-    #What was the first thing David bought Grace PIE
-    #Grace's favourite cryptid HARDING
 
-    #FINAL QUESTION
-    #Out of Grace and David, who likes the other one more DAVID/GRACE both work
-    question1 = "[4,9 a] What's our favourite author's first name"
-    question2 = "[4,9 d] On tinder, what do people see you as (It rhymes with laddie)"
-    question3 = "[1,5 a] What's the best show to watch while high"
-    question4 = "[8,6 d] Who's the most wholeseome lecturer"
-    question5 = "[3,2 a] What did you show me when we first met that changed my coding life forever"
-    question6 = "[6,3 d] Who's the greatest story-teller of all time"
-    question7 = "[4,7 a] What's a nickname for the coolest smartest guy in the world"
-    question8 = "[2,6 d] What's the best school subject"
+    # ACROSS
+    question_1 = "[1,3] A genre of video John watches"
+    answer_1 = "FISHING"
+
+    question_2 = "[3,3] My Singing"
+    answer_2 = "MONSTERS"
+
+    question_3 = "[6,12] Who's the coolest smartest guy in the world"
+    answer_3 = "DAVID"
+
+    question_4 = "[9,1] Grace's best girl friend"
+    answer_4 = "AMY"
+
+    question_5 = "[9,9] Which Saiki character is David"
+    answer_5 = "TERUHASHI"
+
+    question_6 = "[10,3] Which scout is Grace's favourite Youtuber"
+    answer_6 = "KUBZ"
+
+    question_7 = "[12,5] Club"
+    answer_7 = "PENGUIN"
+
+    question_8 = "[14,1] Who's the cutest girl in the world"
+    answer_8 = "GRACE"
+
+    question_9 = "[15,9] What has been pushed"
+    answer_9 = "BOULDER"
+
+    # DOWN
+    question_10 = "[1,3] Grace's favourite show to talk about"
+    answer_10 = "FAMILYGUY"
+
+    question_11 = "[3,5] Which Saiki character is Grace"
+    answer_11 = "NENDOU"
+
+    question_12 = "[3,8] Grace's male best friend"
+    answer_12 = "EASON"
+
+    question_13 = "[4,12] Who is Grace and David's Godmother and made it all happen"
+    answer_13 = "JUDY"
+
+    question_14 = "[5,15] What did Grace ask David about as a pretext to get ins"
+    answer_14 = "MINESWEEPER"
+
+    question_15 = "[8,1] Grace's favourite cryptid"
+    answer_15 = "HARDING"
+
+    question_16 = "[7,17] Which Saiki character is Riley"
+    answer_16 = "KAIDO"
+
+    question_17 = "[19,6] What Grace says where David would say 'Bro'"
+    answer_17 = "DUDE"
+
+    question_18 = "[9,6] What can be used to pay Grace to swim"
+    answer_18 = "HUGS"
+
+    question_19 = "[12,5] What was the first thing David bought Grace"
+    answer_19 = "PIE"
+
+    question_20 = "[12,7] What Grace does after she gets home from work"
+    answer_20 = "NAP"
+
+    question_21 = "[13,3] Grace's favourite animal"
+    answer_21 = "CAT"
+
+
     questions = (question1, question2, question3, question4, question5, question6, question7, question8)
     global answer_list
     for idx in range(len(answer_list)):
